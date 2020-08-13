@@ -1,0 +1,175 @@
+import {StyleSheet, Dimensions} from 'react-native'
+
+const {width} = Dimensions.get('window')
+
+export default StyleSheet.create({
+    container:{
+        flex:1,
+        backgroundColor:'red'
+    },
+    header:{
+        flex:1,
+        backgroundColor:'#fafafa',
+        //justifyContent:'center'
+    },
+    imageBackground:{
+        width:'70%',
+        height:282,
+        
+    },
+    avatarContainer:{
+        width:200,
+        height:200,
+        borderRadius:100,
+        borderWidth:3,
+        borderColor:'#fff',
+        top:20,
+        left:20,
+        position:'absolute'
+    },
+    avatar:{
+        width:'100%',
+        height:'100%',
+       borderRadius:100,
+    },
+    back:{
+        position:'absolute',
+        backgroundColor:'#fff',
+        justifyContent:'center',
+        alignItems:'center',
+        borderRadius:25,
+        width:40,
+        height:40,
+        top:10,
+        zIndex:1
+    },
+    editAvatar:{
+        width:40,
+        height:40,
+        backgroundColor:'#fff',
+        borderRadius:20,
+        justifyContent:'center',
+        alignItems:'center',
+        position:'absolute',
+        right:12,
+        bottom:2
+    },
+    touchableOpacity:{
+        flex:1,
+        justifyContent:'center',
+        alignItems:'center'
+    },
+    footer:{
+        flex:1.4,
+        backgroundColor:'#fafafa',
+        width
+    },
+    userData:{
+        backgroundColor:'#fff',
+        width: width -60,
+        padding:10,
+        borderRadius:5,
+        flexDirection:'row',
+        alignItems:'center',
+        marginVertical:5,
+        elevation:5,
+        alignSelf:'center'
+    },
+    iconleft:{
+        marginRight:10
+    },
+    iconright:{
+        position:'absolute',
+        right:10
+    },
+    settingContainer:{
+        backgroundColor:'#fff',
+        width: width -60,
+        padding:10,
+        borderRadius:5,
+        marginVertical:20,
+        elevation:5,
+        alignSelf:'center',
+    },
+    setting:{
+        flexDirection:'row',
+        alignItems:'center',
+        marginBottom:20,
+    },
+    settingTitle:{
+        fontSize:20,
+        fontWeight:'bold',
+        color:'gray',
+        marginRight:20
+    },
+    buttontheme:{
+        flexDirection:'row',
+        justifyContent:'space-between',
+        marginBottom:10
+    },
+    themeText:{
+        fontSize:16,
+        fontWeight:'bold',
+        color:'gray',
+        marginLeft:10
+
+    },
+    touchButton:{
+        width:'70%',
+        alignSelf:'center',
+        marginTop:10,
+        backgroundColor:'#fff',
+        elevation:1,
+        borderRadius:30,
+        marginBottom:20
+    },
+    button:{
+        width:'100%',
+        height:40,
+        borderRadius:30,
+        justifyContent:'center',
+        alignItems:'center'
+    },
+    buttonText:{
+        fontSize:17,
+        color:'#fff',
+        fontWeight:'bold'
+    },
+    modal:{
+         width: width - 40, 
+         backgroundColor: '#fff',
+         padding:10,
+         borderRadius:5
+    },
+    grupButtomModal:{
+        width:'90%',
+        flexDirection:'row',
+        justifyContent:'space-around',
+        alignSelf:'center',
+        marginTop:10
+       
+    },
+    modalButton:{
+        width:100,
+    },
+    textInputModal:{
+       // backgroundColor:'gray',
+        marginVertical:5,
+        borderBottomWidth: 2,
+        paddingHorizontal:10
+    },
+    modalImage:{
+        backgroundColor:'#fff',
+        flex:1,
+        alignItems:'center',
+        justifyContent:'center'
+    },
+    avatarModal:{
+        width:200,
+        height:200,
+        borderRadius:100,
+        borderWidth:3, 
+       marginBottom:20
+    }
+    
+})
